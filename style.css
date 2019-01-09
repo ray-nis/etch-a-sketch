@@ -96,8 +96,18 @@ input, select {
 
 
 
+
+
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Muli';
+    margin: 10px 0;
+}
+
 #container {
-    max-width: 900px;
+    text-align: center;
 }
 
 .divs {
@@ -105,4 +115,20 @@ input, select {
     display: inline-block;
     margin-top: 0;
     margin-bottom: -3px;
+}
+
+.colorRed {
+    color: #ea6556;
+}
+
+.colorGreen {
+    color: #85f27d;
+}
+
+.colorBlue {
+    color: #8091d6;
+}
+
+.colorYellow {
+    color: #f4d873;
 }
