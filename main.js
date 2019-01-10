@@ -56,6 +56,15 @@ function colorPicker() {
     });
 }
 
+function customColor() {
+    document.querySelector("#customColor").addEventListener("click", () => {
+        let code = prompt("Enter hexcode");
+        color = code;
+        console.log("code" + code);
+        console.log("color" + color);
+    })
+}
+
 function deleteRender() {
     while (container.firstChild) {
         container.removeChild(container.firstChild);
@@ -79,6 +88,7 @@ function main() {
 
     colorPicker();
     size();
+    customColor();
 }
 
 
