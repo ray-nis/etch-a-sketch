@@ -60,8 +60,6 @@ function customColor() {
     document.querySelector("#customColor").addEventListener("click", () => {
         let code = prompt("Enter hexcode");
         color = code;
-        console.log("code" + code);
-        console.log("color" + color);
     })
 }
 
